@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Prática: CSS Anchor Positioning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <span class="badge">CSS Anchor Positioning • Imagem IA (16:9) com 5 Elementos</span>
+    <h1>Tema: [Nome da Sua Temática Aqui]</h1>
+    <p>Aluno(a): [Seu Nome] • Chamada: Aluno Nº [Seu Número]</p>
+  </header>
+
+  <main class="container-infografico">
+    <div class="cenario-imagem">
+      <!-- 1 Única Imagem Widescreen (16:9) Gerada na IA -->
+      <img id="foto-cenario" src="./img/Gemini_Generated_Image_z3ejwmz3ejwmz3ej.jpg" alt="Cenário Temático Widescreen 16:9">
+
+      <!-- PONTO 1: Superior Esquerdo -->
+      <button type="button" id="ponto-1" class="pin-hotspot pin-top-left" popovertarget="card-1">1</button>
+      <div id="card-1" class="card-ancorado" popover>
+        <h3>1. Esta imagem representa uma colônia de corais fluorescentes e bioluminescentes brilhando na escuridão do fundo do mar.</h3>
+        <p>Descrição técnica do elemento localizado no canto superior esquerdo.</p>
+      </div>
+
+      <!-- PONTO 2: Superior Direito -->
+      <button type="button" id="ponto-2" class="pin-hotspot pin-top-right" popovertarget="card-2">2</button>
+      <div id="card-2" class="card-ancorado" popover>
+        <h3>2. A imagem mostra uma chaminé hidrotermal (ou fonte hidrotermal) no fundo do oceano, onde jatos de fluidos minerais superaquecidos emergem da crosta terrestre.</h3>
+        <p>Descrição técnica do elemento localizado no canto superior direito.</p>
+      </div>
+
+      <!-- PONTO 3: Centro -->
+      <button type="button" id="ponto-3" class="pin-hotspot pin-center" popovertarget="card-3">3</button>
+      <div id="card-3" class="card-ancorado" popover>
+        <h3>3. lula-gigante (Architeuthis dux) nadando nas profundezas escuras do oceano.</h3>
+        <p>Descrição técnica do elemento localizado no centro da imagem.</p>
+      </div>
+
+      <!-- PONTO 4: Inferior Esquerdo -->
+      <button type="button" id="ponto-4" class="pin-hotspot pin-bottom-left" popovertarget="card-4">4</button>
+      <div id="card-4" class="card-ancorado" popover>
+        <h3>4. A imagem mostra águas-vivas (medusas) translúcidas e brilhantes flutuando em um ambiente marinho escuro.</h3>
+        <p>Descrição técnica do elemento localizado no canto inferior esquerdo.</p>
+      </div>
+
+      <!-- PONTO 5: Inferior Direito -->
+      <button type="button" id="ponto-5" class="pin-hotspot pin-bottom-right" popovertarget="card-5">5</button>
+      <div id="card-5" class="card-ancorado" popover>
+        <h3>5. A imagem mostra um peixe-pescador (também conhecido como peixe-diabo-abissal ou da ordem Lophiiformes), uma criatura marinha que vive em grandes profundidades na escuridão do oceano.</h3>
+        <p>Descrição técnica do elemento localizado no canto inferior direito.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Material Pedagógico • Prof. Esp. Leandro Gaudio Rosa • Entrega no GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
